@@ -1,0 +1,19 @@
+Virutal Ennvironment - an environment for paticular program we go to write not for complete python ,, we are not afftecting the global pythona and the third party software installed are maintained for versioning;
+
+What ever we installing and running is independant on our system the app can run in any computer and any places;
+
+venv - tradional way we can use UV
+
+PEP 8- style guide for python 4 spaces nevertabs , 
+formatters - more structured.
+
+DataTypes : - Python 
+objects and mutability :
+
+object - Everything is a object in python.
+
+identity - find this is mutable or immutable.
+Type  -
+value -
+
+id() - return the reference number in the memory
