@@ -68,4 +68,13 @@ mybyte_array = bytearray(b"hari"); # hari
 print(mybyte_array.replace(b"h",b"k")); #kari changed to beacuse it uses byte array
 
 
-# set  ---> order , changable , dont allow dublicates
+# set  ---> order , changable , dont allow dublicates;
+
+# | - or pipe know as the union pipe means that the concat two  {};
+#  & - return the intersection means the common array value;
+# -  -- return the only in one {} not in another {};
+# in  -- check whether in the {};
+
+
+# Dictonary  - key value pair ;
+
