@@ -1,3 +1,6 @@
+import arrow
+
+
 sugar_value =2 
 print(f"Initial sugar :{sugar_value}");
 print(f"Initial sugar :{id(sugar_value)}"); #store in refernce
@@ -78,3 +81,20 @@ print(mybyte_array.replace(b"h",b"k")); #kari changed to beacuse it uses byte ar
 
 # Dictonary  - key value pair ;
 
+person = {
+    "name":'Hari',
+    "lastName" : 'Prasath',
+    "age":'24',
+}
+print(person.pop("age"))
+print(person)
+
+# obj.keys - returns the keyes and obj.values is return all values
+# obj.get('key', 'default value if not present');
+
+
+# Advance for DataTypes in Python like collections;
+
+
+my = arrow.utcnow();
+print(my)
