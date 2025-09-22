@@ -98,3 +98,13 @@ print(person)
 
 my = arrow.utcnow();
 print(my)
+
+# instead of elif we can use match
+
+match '1':
+    case '1':
+        print('do something')
+    case _:
+        print('nothing')
+
+
