@@ -43,3 +43,25 @@ class more:
         return size
     
 # property decorator:
+# helps to update the property getter and setter
+
+class deco:
+    def __init__(self , age):
+        self._age = age
+    
+    @property
+    def age(self):
+        return self._age + 2   #getter for thr property
+    
+    @age.setter                      #setter
+    def age(self, age):
+         self._age = age
+         return None
+  
+
+obj = deco(1)
+print(obj.age)
+obj.age = 2
+print(obj.age)
+
+# getter setter which obj instace change the property inside the class helpfull for validation input into the objects.
