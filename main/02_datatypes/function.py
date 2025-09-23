@@ -64,4 +64,14 @@ update()
 # return multiple value ,,,
 # Types of fucntion pure return somthing not affect outer world vs impure functions --- side effects no return, recursive function a function call itself.
 # lamda function - anonimous 
-# lamda chai:chai =="kadak "
+# lamda chai:chai =="kadak ";
+
+
+x = lambda a, b : a * b
+print(x(5, 6))
+
+# function can have a built in methods and proprrtye we can access by __ doc__
+# let say function name is action we need to write name.__doc__ -- return the comments a built in functions
+
+
+# import  things in the python .
