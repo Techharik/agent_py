@@ -26,3 +26,15 @@ for _ in range(3):
     print(next(refill))
 
 # Send Value to the generators
+def chai_customer():
+    print("Welcone what chai would you like !")
+    order = yield
+    while True:
+        print(f'We are Preparing: {order}' )
+        order = yield
+
+stall = chai_customer()
+next(stall)
+stall.send("Masala")
+stall.send("COLD")
+stall.send("Ginger")
