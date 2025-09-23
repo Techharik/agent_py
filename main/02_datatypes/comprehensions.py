@@ -19,3 +19,21 @@ unqiue_sets = { lists for key in recipes  for lists in recipes[key] };
 
 
 print(unqiue_sets)
+
+# Dictionary comperhensions
+pairs = {
+    "one":1,
+    "two":2,
+    "three":3
+}
+
+paris_multiply = { pairs* 2 for k, pairs in pairs.items() }
+print(paris_multiply)
+
+# Generator Comphrehensions for memory Optimizations:
+
+# Generator are used to care about the memory ;
+
+# (expression for item in iterable if condition); generator object uses the streams to store the data;
+
+
