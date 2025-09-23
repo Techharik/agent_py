@@ -10,3 +10,19 @@ def get_generator():
 value  = get_generator()
 print(next(value))
 print(next(value))
+
+# infinte Generators in python 
+# Helps in streams when we need a constant access the data realtime updates
+
+def infinite_chai():
+    count =1
+    while True:
+        yield f"refil {count}"
+        count+=1
+
+refill = infinite_chai()
+
+for _ in range(3):
+    print(next(refill))
+
+# Send Value to the generators
