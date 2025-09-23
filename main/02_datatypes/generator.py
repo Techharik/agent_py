@@ -38,3 +38,24 @@ next(stall)
 stall.send("Masala")
 stall.send("COLD")
 stall.send("Ginger")
+stall.close() #close the Generators 
+# Yield from - combaine multiple generator function in one functions
+
+
+# Decorators in python
+# a decorator function do decoration in another functions
+
+# example for decorators
+
+def built_decorators(func):
+    def wrapper():
+        print("After")
+        func()
+        print("Before")
+    return wrapper
+
+@built_decorators
+def my_function():
+    print('My function')
+
+my_function()
