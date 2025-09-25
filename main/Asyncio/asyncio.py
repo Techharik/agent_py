@@ -42,5 +42,5 @@ asyncio.run(my_process)
 
 
 # Demon and non-demon : 
-# Demon thread are backround thread it automaticaly shutdown when the server stops;
+# Demon thread are backround thrasynciead it automaticaly shutdown when the server stops;
 # non Demon thread are run continously.

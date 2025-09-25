@@ -2,7 +2,7 @@
 #  A schema Validation setting mangements: init , type , config files for setting mangements.
 # Data parsing and validation , api development , config management, Data serlization/deserilization
 
-from pydantic import BaseModel, Field , field_validator , model_validator , computed_field
+from pydantic import BaseModel, Field , field_validator , model_validator , computed_field , ConfigDict
 
 class User(BaseModel):
     id:int
@@ -166,3 +166,5 @@ print(my_comment)
 # lazy Loading
 
 # Model dump and Model dump json in serlizations
+
+
