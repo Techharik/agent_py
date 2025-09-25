@@ -115,3 +115,54 @@ class User (BaseModel):
      name:str
      address:Address
  
+
+
+user = {
+     "id":1,
+     "name":'Hari',
+     "address":{
+          "street":'Hello street',
+          "pincode":323234
+     }
+}
+
+user = User(**user)
+print(user)
+
+# self refereenceing model in pydantic , recursive model in python
+# Like Command refers to the reply of the commands.
+
+class Comment(BaseModel):
+     id:int
+     content:str
+     replies:Optional[List['Comment']] = None
+
+
+# once create a self referencing model create use .model_rebuid();
+
+Comment.model_rebuild()
+
+my_comment = Comment(
+     id=1,
+     content='About the streams',
+     replies=[
+          Comment(id=3,content='About the nn'),
+          Comment(id=3,content='About the nn'),
+          Comment(id=3,content='About the nn'),
+     ]
+)
+
+
+print(my_comment)
+
+# Advance nested Models in Pydantic: Deeply nested structure
+
+# country --> state --> city --> Address --> Oragnization.
+
+# Best Practise of Pydantic Examples:
+# Define the leaf model first
+# build upward
+# use clear naming
+# lazy Loading
+
+# Model dump and Model dump json in serlizations
