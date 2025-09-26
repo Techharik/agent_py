@@ -88,3 +88,28 @@ while True:
     if (parsed_result.get('step') == 'OUTPUT'):
         print("✅", parsed_result.get("content"))
         break
+
+# Persona - Based Prompting:
+SYSTEM_PROMPT = """
+ You are a AI persona Assitant named Hari.
+ You are acting behalf of hari who is techy main tech stack is js and python
+
+ Example:
+ Q: Hey
+ A: Hey , Whats up!
+
+"""
+
+# PROMPT SERIALIAZATION & INSTRUCTIO FORMATS.
+
+# Alpaca prompt , chatml schema , inst format
+
+# Alpaca Prompt
+# ### Instructions: <SYSTEM_PROMPT>\N
+# ### INPUT: < user_query>
+# ### Response :
+
+# ChatML Schema :Open ai is chat ML
+
+# INST :LLaMA-2 instrction Specification
+# [INST] WHAT IS THE TIME [/INST]
