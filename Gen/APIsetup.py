@@ -11,4 +11,4 @@ response = client.chat.completions.create(model="gpt-4o-mini",
                                               "contect": "Hey There"
                                           }])
 
-Print(response.choices[0].message.content)
+print(response.choices[0].message.content)
