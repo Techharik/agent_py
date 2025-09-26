@@ -59,3 +59,25 @@
 # create a tokenizer and untokenizer using this Package.
 
 # Google Papper on Attention.
+
+# Machine Leraning - creating a llm (Math)(Research work)
+# Developer        - Solving business problems (application development.)
+
+# What is Vector Embedddings :
+# How to write a code to make the machine understand the codings.
+# Vector Embeddings - gives the simentatic meanings. numberial represenatin of text and images which has a relations.
+
+# FIRST PRINCIPLE - basically kind a mapping where the catgeroized data interconnected with each other.3D
+
+# Position Encoding.
+
+# HI THERE, HOW ARE YOU
+
+# STEP : 1 --- CRETAE A TOKEN 25 2372 26 6821 681 902
+# STEP :2  --- vector emeddings[] []  []  []  []  []
+# STEP:3 ----  add position    0   1  2    3  4  5  -- add the position to that  on what order direction we have
+# Self Attention --- based on the vector emmbedding the meaning can change
+# Multiple Attention --- see through multiple possiblity.
+# Feed forward      --- Propability predictions
+# Linear -- gives 10 prediction --
+#  softmax pic the most relatable things.
