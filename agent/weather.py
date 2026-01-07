@@ -2,9 +2,12 @@ from openai import OpenAI
 import json
 import requests
 import os
+from dotenv import load_dotenv
 
+load_dotenv()
+key = os.getenv('GEMINI')
 client = OpenAI(
-    api_key="AIzaSyDdmsoLr_VvdMrUL1zcIq-dYXNl1iqaoVU",
+    api_key=key,
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/")
 
 SYSTEM_PROMPT = """ You're a  Assistant. Only answer weather-related and code related queries. If the user asks anything else, reply "sorry" and ask them to query about weather.  
@@ -97,6 +100,7 @@ while True:
         elif step == "TOOL":
             tool = content
             print("----", tool)
+            print("----", parsed_result)
             # Detect which tool and call it
             if tool:
                 result = tool(parsed_result.get(args['city']))

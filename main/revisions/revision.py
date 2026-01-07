@@ -1,8 +1,7 @@
-
 # variable and datatypes:
 
-# str , it , float , boolean , complex , 
-#  tupesls , list , sets , range
+# str , it , float , boolean , complex ,
+#  tupels , list , sets , range
 # bytes , bytessarray
 # dictinory
 
@@ -12,7 +11,7 @@
 
 my_string = 'Hello world'
 
-my_string[1] #access
+my_string[1]  #access
 
 for x in my_string:
     print(x)
@@ -25,11 +24,11 @@ if "w" not in my_string:
 
 # Slicing a string:
 
-print(my_string[0:3]) #from 0 to 3 exclusive
+print(my_string[0:3])  #from 0 to 3 exclusive
 
 # methods
 # upper, lower, stripe, replace , split
-# concat + 
+# concat ,+
 # formated string useing f
 
 # age = 36
@@ -58,7 +57,7 @@ mylist = ["apple", "banana", "cherry"]
 # for loops , while , range() , len()
 
 # thislist = ["apple", "banana", "cherry"]
-# for i in range(len(thislist)):    
+# for i in range(len(thislist)):
 #   print(thislist[i])
 
 # Comperhension of loops [x*2 for x in range(len(my_list))]
@@ -71,7 +70,6 @@ mylist = ["apple", "banana", "cherry"]
 
 # (green, yellow, red) = fruits  unpack a tuple
 
-
 # A set is a collection which is unordered, unchangeable*, and unindexed.
 
 # Though the sets are onuindexed we need to loop to access the sets
@@ -83,14 +81,14 @@ mylist = ["apple", "banana", "cherry"]
 # difference -keep only the item from first sets not include in second stes
 # symmentric_difference() - keep all items except the duplicates
 
-set1 = {"1",'2',3}
-set2 = {3,2,1}
+set1 = {"1", '2', 3}
+set2 = {3, 2, 1}
 # print(set1 | set2)  {'1', 1, 2, 3, '2'} join without duplicates
 # print(set1.intersection(set2)) {3}
 # print(set1.difference(set2)) {1,2}
 # print(set1.symmetric_difference(set2)) {1, 2, '2', '1'}
 
-# Unlike sets, elements cannot be added or removed from a frozenset.  
+# Unlike sets, elements cannot be added or removed from a frozenset.
 # x = frozenset({"apple", "banana", "cherry"})
 # print(x)
 # print(type(x))
@@ -101,7 +99,6 @@ set2 = {3,2,1}
 # obj.update({'year':22})
 # remove ---> pop() , clear() , popitems()
 # copy()
-
 
 # conditional statement
 
@@ -126,15 +123,15 @@ set2 = {3,2,1}
 
 # print(myfunction())
 
-# in decorators the python if we ask fro a name with dundor__name__ it returns the wraper functin we use 
+# in decorators the python if we ask fro a name with dundor__name__ it returns the wraper functin we use
 # funtools.wraps
 # lambda arguments : expression
 
-# oops - class , inheritance , static methods , 
+# oops - class , inheritance , static methods ,
 
 # mystr = "banana"    //iterable object
 # myit = iter(mystr)   //making it iternation
- 
+
 # print(next(myit))
 # print(next(myit))
 # print(next(myit))

@@ -13,7 +13,7 @@
 
 # GPT- Generative pretrained Transformer.
 # Generative - Generate a output for the reponse.(Its not searching it generate it creates it own.)
-# Pretrained - It generate the pretrained model based on the pretrained model.
+# Pretrained - It generate the pretrained model based on the pretrained data.
 # Transformer -Reality (It transforms to Genrativie based on pretrained model)
 
 # How the LLMS work under the Hood
@@ -30,6 +30,7 @@
 # hI tHERE    ---->            -----> hello
 # hi there hello ---->         -----> I am fine
 # Hi there hello I am fine ----> -----> <ENd>
+#Internals of working
 
 # Input token go with the output token for every returns
 
@@ -41,15 +42,15 @@
 
 #Fundamental of Tokenization in NLP
 
-# Token - the charachter that human are mapped to some numbersis known as token
+# Token - The charachter that human are mapped to some numbersis known as token .
 
-#  a-1, b-2 , c-3 -- do if we give abc the transformers able to predict the token 4 which is D
+#  a-1, b-2 , c-3 -- Do if we give abc the transformers able to predict the token 4 which is D
 
 # Tokenizer Vercel.com --
-# Hey their , my name is hari - 17 token
+# Hey their , my name is hari - 17 token .
 
 # Tokenization - converting the user input to set of number is know as tokenizations.
-# Hey there - numbers -token - llm -transformers - predict the next token - Detokenization - send to client.
+# Query - numbers -token - llm -transformers - predict the next token - Detokenization - send to client.
 
 # Everymodel has their own way of tokenization and detokenization.
 
@@ -64,6 +65,7 @@
 # Developer        - Solving business problems (application development.)
 
 # What is Vector Embedddings :
+
 # How to write a code to make the machine understand the codings.
 # Vector Embeddings - gives the simentatic meanings. numberial represenatin of text and images which has a relations.
 
@@ -79,5 +81,5 @@
 # Self Attention --- based on the vector emmbedding the meaning can change
 # Multiple Attention --- see through multiple possiblity.
 # Feed forward      --- Propability predictions
-# Linear -- gives 10 prediction --
+# Linear -- gives example 10 prediction --
 #  softmax pic the most relatable things.
