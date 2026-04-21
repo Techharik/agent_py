@@ -15,10 +15,12 @@
  2. RETRIVAL PHASE -- CHATTING WITH DATA.
 
 INDEXING Phase:
-user gave a lot of data  --- chunking (split it into smaller peaces) ---> Embedding  model ---> vector embeddings ---> stored in vector database(chunk and   vectors) 
+User gave a lot of data  --- chunking (split it into smaller peaces) ---> Embedding  model ---> vector embeddings ---> Stored in vector database(chunk and   vectors) 
 
 Retrival Phase :
-user - query - vector embeddings - Embedding Models -- Vector embedding (query) --> Vector similarty search in db - got the relvent chucks from the dbs (vector - content) --> Pass the data to the system prompt.  -- lllm - user query data it return output 
+user - query - vector embeddings - Embedding Models -- Vector embedding (query) --> Vector similarty search in db - got the relvent chucks from the dbs (vector - content) -->
+ Pass the data to the system prompt. 
+  -- lllm - user query data it return output 
 '''
 
 # WE Need Vector database. - pinecone -weaviate - chromadb - pgvector -qdrant db

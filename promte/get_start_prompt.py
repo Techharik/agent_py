@@ -76,7 +76,9 @@ while True:
         response_format={"type": "json_object"},
         messages=message_history)
     raw_result = response.choices[0].message.content
+
     message_history.append({"role": "assistant", "content": raw_result})
+    
     parsed_result = json.loads(raw_result)
     print(parsed_result, '----')
     if (parsed_result.get('step') == 'START'):

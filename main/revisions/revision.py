@@ -31,10 +31,10 @@ print(my_string[0:3])  #from 0 to 3 exclusive
 # concat ,+
 # formated string useing f
 
-# age = 36
+age = 36
 # #This will produce an error:
-# txt = "My name is John, I am " + age   #through as a Error
-# print(txt)
+txt = "My name is John, I am " + age   #through as a Error
+print(txt)
 # escaping charaters \
 
 # Boolean:

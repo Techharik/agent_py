@@ -15,7 +15,7 @@ data = {"id": 1, "name": 's', "is_active": True}
 
 OBJ = User(**data)
 
-# print(OBJ)
+print(OBJ)
 
 # Advance typing & datatype in python , int , str , bool
 from typing import List, Dict, Optional
@@ -94,6 +94,7 @@ my_compute = computed(price=12.00, quantity=12)
 
 print(my_compute.total_price)  #access it like a property.
 
+print(my_compute)  #price=12.0 quantity=12 total_price=144.0
 # serilization
 print(
     my_compute.model_dump()

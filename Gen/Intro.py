@@ -81,5 +81,5 @@
 # Self Attention --- based on the vector emmbedding the meaning can change
 # Multiple Attention --- see through multiple possiblity.
 # Feed forward      --- Propability predictions
-# Linear -- gives example 10 prediction --
-#  softmax pic the most relatable things.
+# Linear -- gives example 10 prediction 
+# softmax --  pic the most relatable things.

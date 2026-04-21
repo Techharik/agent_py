@@ -27,18 +27,19 @@ print(f"{totoal_grams}")
 new_string = 'mystring';
 print(f"{new_string[(len(new_string) - 1)]}") #last number
 new_string[0:8] # slice the string
-new_string[0:8:2] # slice the string from 0 to 8 and take every 2 char
+print(new_string[0:8:2]) # slice the string from 0 to 8 and take every 2 char
 new_string[8:] # from 8 index to everything.
-new_string[::-1] # reverse the string;
+print(new_string[::-1]) # reverse the string;
 
 # when we have the speical characters like non english words we need to encode and decode the string to get the 
 # result 
 
 encode = "harià" #consider the encode varibale has a special char
-after_encode = encode.encode("utf-8"); #conver other variable to utf encoded
+after_encode = encode.encode("utf-8"); #convert other variable to utf encoded
 afetr_decode = after_encode.decode("utf-8") # convert back to actual string
-print(after_encode)
 
+print(after_encode)
+print(afetr_decode)
 # string indexing , slicing, encodeing core features.
 
 #Tuples and Membership Testing .
